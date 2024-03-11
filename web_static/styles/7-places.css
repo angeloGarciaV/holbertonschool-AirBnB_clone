@@ -1,0 +1,24 @@
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.places h1{
+    flex-basis: 100%;
+}
+.card{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 390px;
+    height: 45px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid var(--brand-color);
+    border-radius: var(--round-corners);
+}
+.card h2 {
+    padding: 0px;
+    margin: 20px 0px;
+    line-height: 0;
+}

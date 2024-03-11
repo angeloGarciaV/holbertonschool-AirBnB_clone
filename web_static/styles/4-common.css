@@ -1,10 +1,18 @@
+:root{
+    --brand-color: #ff5a5f;
+    --border-color: #dddddd;
+    --text-color: #484848;
+    --color-white: #ffffff;
+    --popover-bg-color: #fafafa;
+    --round-corners: 4px;
+}
 html, body {
     height: 100%;
 }
 body {
     margin: 0;
     padding: 0;
-    color: #484848;
+    color: var(--text-color);
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     display: flex;
