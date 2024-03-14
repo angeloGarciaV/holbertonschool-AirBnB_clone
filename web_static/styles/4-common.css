@@ -10,6 +10,7 @@ html, body {
     height: 100%;
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
